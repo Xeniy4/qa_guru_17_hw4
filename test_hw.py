@@ -1,7 +1,5 @@
 from random import random
 
-import pytest
-
 def test_greeting():
     """
     Напишите программу, которая выводит на экран приветствие.
