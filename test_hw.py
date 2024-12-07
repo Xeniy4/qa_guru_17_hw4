@@ -1,5 +1,3 @@
-from random import random
-
 def test_greeting():
     """
     Напишите программу, которая выводит на экран приветствие.
@@ -39,7 +37,7 @@ def test_circle():
     import math
     r = 23
     # TODO сосчитайте площадь
-    area = math.pi * r**2
+    area = math.pi * r ** 2
 
     assert area == 1661.9025137490005
 
@@ -56,10 +54,10 @@ def test_random_list():
     # TODO создайте список
     import random
 
-    l = [random.randint(1, 101), random.randint(1, 101), random.randint(1, 101), random.randint(1, 101),
-         random.randint(1, 101),
-         random.randint(1, 101), random.randint(1, 101), random.randint(1, 101), random.randint(1, 101),
-         random.randint(1, 101)]
+    l = [random.randint(1, 100), random.randint(1, 100), random.randint(1, 100), random.randint(1, 100),
+         random.randint(1, 100),
+         random.randint(1, 100), random.randint(1, 100), random.randint(1, 100), random.randint(1, 100),
+         random.randint(1, 100)]
     l.sort()
 
     assert len(l) == 10
